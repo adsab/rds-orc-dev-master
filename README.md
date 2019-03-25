@@ -1,7 +1,7 @@
 # AWS RDS - Oracle
 
 ## Summary
-This is a sample stack  to create a Oracle RDS instance with dev appropriate sizing and configuration. 
+This is a sample stack  to create a Oracle RDS instance with dev appropriate sizing and configuration.
 
 ## Getting started
 To get started, clone the repository and change the directory names under each test* directory to your environment/name. Please note that creating RDS instances can take approximately 10-15 minutes to complete.
@@ -13,7 +13,7 @@ cp -pr test/dev1 test/dev2
 You'll need to change the following in the terraform.tfvars file for each environment . The file contains environment-specific variables that will get called during execution time.
 
 * Tags
- - product_code_tag 
+ - product_code_tag
  - inventory_code_tag
  - environment_tag
  - product_name
@@ -43,7 +43,7 @@ This will check against your .tfstate file to see both what exists and what will
 If the output of <strong>terraformer plan</strong> looks acceptable you can run the <strong>terraform apply</strong> command to actually create the listed resources in AWS.
 
 ```
-terraform  apply -var-file=./test/dev1/terraform.tfvars 
+terraform  apply -var-file=./test/dev1/terraform.tfvars
 ```
 
 ## Destroying
@@ -75,4 +75,4 @@ http://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.DBInstanceClass.h
 
 https://www.terraform.io/docs/providers/aws/r/db_instance.html
 
-
+-- test5
