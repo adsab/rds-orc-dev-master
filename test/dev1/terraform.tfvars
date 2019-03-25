@@ -5,9 +5,9 @@ aws_region  = "eu-west-2"
 
 # Tags - Please put your product_code_tag, product_name, enviroment_tag, inventory_code_tag and resource_creator
 
-environment_tag    = "WPdev"		# The environment the resource exists in. Analogous to an on-prem cluster: dev1, qa1, kscott1, yournamehere1, etc
+environment_tag    = "WPdev"		# The environment the resource exists in. Analogous to an on-prem cluster: dev1, qa1, yournamehere1, etc
 inventory_code_tag = "wp-orcsql"	# Product name and class separated by a dash
-product_code_tag   = "PRD111"		# A valid product code (PRD #) from PIM
+product_code_tag   = "PRD111"		# A valid product code (PRD #)
 product_name 	   = "HPP_PILOT"		# Product name
 resource_creator   = "adbennis"		# Resource creator
 zone  		   = ""	# AWS zone
