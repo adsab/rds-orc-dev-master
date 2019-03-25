@@ -59,6 +59,8 @@ terraform  destroy -var-file=./test/dev1/terraform.tfvars
   * CNAME for each instance, whether it's the writeable master instance, or the read-only instances.
 
 ## Database Parameters
+## Database Parameters
+## Database Parameters
   * Avoid hard coding size related parameters. RDS provides default settings based on the instance type.
   * For addtional cluster and/or instance parameters that need customized values, add to parameters.tf
 
